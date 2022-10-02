@@ -1,0 +1,82 @@
+/* body{background-image: url(../image/background.png);} */
+/* Background end */
+
+
+h1{color: rgb(204, 175, 13);font-family: arial;border-style:solid ;
+width: fixed; background-color: black; text-align: center;
+font-size: 30px;margin-top: 0px;margin-bottom: 0px;
+display:block;}
+hr{padding-top: 0px; padding-bottom: 2px;}
+/* Title end */
+.button-facebook{background-color: rgba(75, 11, 204, 0.5);
+    border-width: 8px;
+    border-color: blue;
+    color: white;
+    position: relative;
+    padding: 12px 12px;
+    font-size: 12px;
+    border-radius:25px ;
+    will-change: transform;
+    transform: translateY(-4px);
+    transition:transform 600ms cubic-bezier(.3,.7,.4,1);
+    margin-right: 5px;
+    margin-left: 80px;}
+.button-facebook:hover{background-color: blue; color: gold;}
+.button-Youtube{background-color: rgb(245, 4, 4,.6); 
+    border-width: 8px; border-color: brown; color: white;
+    position:relative;
+    padding: 12px 12px;
+    font-size: 12px;
+    border-radius:25px ;
+    will-change: transform;
+    transform: translateY(-4px);
+    transition:transform 600ms cubic-bezier(.3,.7,.4,1);
+    margin-right: 5px;}
+.button-Youtube:hover{background-color: brown;color: gold;}
+
+.button-telegram{background-color: rgb(14, 165, 202,.4);
+    border-width: 8px; border-color: rgb(196, 183, 13);
+    position:relative;
+    padding: 12px 12px;
+    font-size: 12px; color: whitesmoke;
+    border-radius:25px ;
+    will-change: transform;
+    transform: translateY(-4px);
+    transition:transform 600ms cubic-bezier(.3,.7,.4,1);}
+.button-telegram:hover{background-color: rgb(196, 183, 13);color: white;}
+/*social button end */
+
+.title-image{width: 290px; border-radius:70px;border-style: solid; 
+    border-width: 5px; border-color: rgba(255, 136, 0, 0.993);}
+.title-image:hover{width: 270px; border-color: rgb(255, 72, 0);
+    border-width: 15px;
+    border-radius: 30px;}
+
+div{background-color: rgba(223, 208, 208, 0.959);
+    display: inline-block;
+    padding-top: 5px;  
+    margin-left: 20px; 
+    width:300px;
+/* border-style: double;border-color: red;border-width: 3px;  */
+    margin-bottom: 15px;
+    border-radius: 16px;}
+
+
+.button-signup{background-color: rgb(55, 148, 18);
+    color: white; 
+    border-style: solid;
+    border-width: 3px; 
+    border-color: rgb(255, 0, 0);
+    border-radius: 18px;
+    margin-left: 5px;
+    font-size: 26px;    font-style: italic;
+    padding-top: 0px;}
+.button-signup:hover{background-color: black; color: blue;}
+.proofs{background-color: rgb(187, 53, 53);border-style: solid; font-size: 18px;
+    border-radius: 10px;margin-left: 18px;}
+.proofs:hover{background-color: white; color: rgb(245, 10, 120);}
+p{font-family: arial;font-size: 13px;
+    margin-left: 3px;
+    padding-top: 0px; 
+    padding-bottom: 2px;} 
+strong{color: rgb(184, 8, 81);}
